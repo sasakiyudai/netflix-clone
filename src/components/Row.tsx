@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "../axios";
+import "./Row.scss";
 
 const base_url = "https://image.tmdb.org/t/p/original";
 
@@ -34,7 +35,7 @@ export const Row = ({ title, fetchUrl, isLargeRow }: Props) => {
     <div className="Row">
       <h2>{title}</h2>
       <div className="Row-posters">
-        {movies.map((movie, i) => (
+        {movies.map((movie) => (
           <img
             key={movie.id}
             className={`Row-poster ${isLargeRow && "Row-poster-large"}`}
