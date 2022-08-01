@@ -1,12 +1,12 @@
 const API_KEY = process.env.REACT_APP_API_KEY;
 
 export const requests = {
-  feachTrending: `/trending/all/week?api_key=${API_KEY}&language=en-us`,
-  feachNetflixOriginals: `/discover/movie?api_key=${API_KEY}&with_networks=213`,
-  feactTopRated: `/discover/movie?api_key=${API_KEY}&languager=en-us`,
-  feactActionMovies: `/discover/movie?api_key=${API_KEY}&with_genres=28`,
-  feactComedyMovies: `/discover/movie?api_key=${API_KEY}&with_genres=35`,
-  feactHorrorMovies: `/discover/movie?api_key=${API_KEY}&with_genres=27`,
-  feactRomanceMovies: `/discover/movie?api_key=${API_KEY}&with_genres=10749`,
-  feactDocumentMovies: `/discover/movie?api_key=${API_KEY}&with_genres=99`,
+  fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-us`,
+  fetchNetflixOriginals: `/discover/movie?api_key=${API_KEY}&with_networks=213`,
+  fetchTopRated: `/discover/movie?api_key=${API_KEY}&languager=en-us`,
+  fetchActionMovies: `/discover/movie?api_key=${API_KEY}&with_genres=28`,
+  fetchComedyMovies: `/discover/movie?api_key=${API_KEY}&with_genres=35`,
+  fetchHorrorMovies: `/discover/movie?api_key=${API_KEY}&with_genres=27`,
+  fetchRomanceMovies: `/discover/movie?api_key=${API_KEY}&with_genres=10749`,
+  fetchDocumentMovies: `/discover/movie?api_key=${API_KEY}&with_genres=99`,
 };
